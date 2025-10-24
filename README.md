@@ -9,6 +9,8 @@
 [![Fedora](https://img.shields.io/badge/Fedora-supported-294172.svg?logo=fedora)](https://src.fedoraproject.org/rpms/java-17-openjdk) 
 [![Gentoo](https://img.shields.io/badge/Gentoo-supported-54487a.svg?logo=gentoo)](https://packages.gentoo.org/packages/dev-java/openjdk)
 
+---
+
 # Specs API
 
 A Java API that displays detailed information about your PC's hardware.
