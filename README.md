@@ -1,46 +1,61 @@
-[![Java](https://img.shields.io/badge/Java-17%2F21-blue.svg?logo=java)](https://adoptium.net/) [![FreeBSD](https://img.shields.io/badge/FreeBSD-supported-red.svg?logo=freebsd)](https://www.freshports.org/java/openjdk17/) [![GhostBSD](https://img.shields.io/badge/GhostBSD-supported-3f5cff.svg?logo=ghost)](https://www.ghostbsd.org/) [![Linux](https://img.shields.io/badge/Linux-supported-green.svg?logo=linux)](https://openjdk.java.net/) [![macOS](https://img.shields.io/badge/macOS-supported-lightgrey.svg?logo=apple)](https://adoptium.net/) [![Windows](https://img.shields.io/badge/Windows-supported-blue.svg?logo=windows)](https://adoptium.net/) [![Arch Linux](https://img.shields.io/badge/Arch-Linux-blue.svg?logo=arch-linux)](https://archlinux.org/packages/?q=openjdk) [![Debian](https://img.shields.io/badge/Debian-supported-a80030.svg?logo=debian)](https://packages.debian.org/search?keywords=openjdk) [![Fedora](https://img.shields.io/badge/Fedora-supported-294172.svg?logo=fedora)](https://src.fedoraproject.org/rpms/java-17-openjdk) [![Gentoo](https://img.shields.io/badge/Gentoo-supported-54487a.svg?logo=gentoo)](https://packages.gentoo.org/packages/dev-java/openjdk)
+[![Java](https://img.shields.io/badge/Java-17%2F21-blue.svg?logo=java)](https://adoptium.net/) 
+[![FreeBSD](https://img.shields.io/badge/FreeBSD-supported-red.svg?logo=freebsd)](https://www.freshports.org/java/openjdk17/) 
+[![GhostBSD](https://img.shields.io/badge/GhostBSD-supported-3f5cff.svg?logo=ghost)](https://www.ghostbsd.org/) 
+[![Linux](https://img.shields.io/badge/Linux-supported-green.svg?logo=linux)](https://openjdk.java.net/) 
+[![macOS](https://img.shields.io/badge/macOS-supported-lightgrey.svg?logo=apple)](https://adoptium.net/) 
+[![Windows](https://img.shields.io/badge/Windows-supported-blue.svg?logo=windows)](https://adoptium.net/) 
+[![Arch Linux](https://img.shields.io/badge/Arch-Linux-blue.svg?logo=arch-linux)](https://archlinux.org/packages/?q=openjdk) 
+[![Debian](https://img.shields.io/badge/Debian-supported-a80030.svg?logo=debian)](https://packages.debian.org/search?keywords=openjdk) 
+[![Fedora](https://img.shields.io/badge/Fedora-supported-294172.svg?logo=fedora)](https://src.fedoraproject.org/rpms/java-17-openjdk) 
+[![Gentoo](https://img.shields.io/badge/Gentoo-supported-54487a.svg?logo=gentoo)](https://packages.gentoo.org/packages/dev-java/openjdk)
 
-# Specs API :
+# Specs API
 
-### A Java application that displays detailed information about your PC's hardware.
+A Java API that displays detailed information about your PC's hardware.
 
-![img.png](img.png)
+---
 
-# Features :
+## Features
 
-**CPU Details :** View processor's model, physical and logical core count.  
-**GPU Information :** See graphics processor name and VRAM capacity.  
-**RAM Usage :** Shows total, used, and free memory, without cached files.  
-**Operating System :** Displays OS name and version.
+- **CPU Details:** View processor model, physical and logical core count.  
+- **GPU Information:** See graphics processor name and VRAM capacity.  
+- **RAM Usage:** Shows total, used, and free memory (excluding cached files).  
+- **Operating System:** Displays OS name and version.
 
-# Minimum Requirements :
+---
 
-🖥️ OS : Windows 7 or better / Linux Kernel version 4.4 or better / Mac OS 10.11 or better / Free BSD Based OS 12 or better  
-⚙️ CPU : 64 bits CPU  
-💾 RAM : 512 MO of RAM  
-💿 Storage : 512 Mo of free space  
-☕ Java : JDK 17 or better
+## Minimum Requirements
 
-# Project Status :
+- 🖥️ **OS:** Windows 7 or later / Linux Kernel 4.4 or later / macOS 10.11 or later / FreeBSD 12+  
+- ⚙️ **CPU:** 64-bit processor  
+- 💾 **RAM:** 512 MB  
+- 💿 **Storage:** 512 MB free space  
+- ☕ **Java:** JDK 17 or later
 
-### Legend :
-- ✅ Yes
-- ❌ No
-- ⚠️ Partial or Special Case
-- 🟧 Not Available/Unknown
+---
+
+## Project Status
+
+### Legend
+- ✅ Yes  
+- ❌ No  
+- ⚠️ Partial or Special Case  
+- 🟧 Not Available / Unknown
 
 | OS           | Launch | OS | CPU | RAM | GPU |
-|--------------|-------|----|-----|------|------|
-| Windows      | ✅    | ✅ | ✅ | ✅  | ✅ |
-| Arch Linux   | ✅    | ✅ | ✅ | ✅  | ✅ |
-| Ubuntu       | ✅    | ✅ | ✅ | ✅  | ✅ |
-| Debian       | ✅    | ✅ | ✅ | ✅  | ✅ |
-| Fedora       | ✅    | ✅ | ✅ | ✅  | ✅ |
-| Gentoo Linux | ✅    | ✅ | ✅ | ✅  | ✅ |
-| Mac OS       | ✅    | ✅ | ✅ | ✅  | ✅ |
-| BSD          | ✅    | ✅ | ✅ | ✅  | ⚠️ |
+|--------------|--------|----|-----|-----|-----|
+| Windows      | ✅      | ✅  | ✅   | ✅   | ✅   |
+| Arch Linux   | ✅      | ✅  | ✅   | ✅   | ✅   |
+| Ubuntu       | ✅      | ✅  | ✅   | ✅   | ✅   |
+| Debian       | ✅      | ✅  | ✅   | ✅   | ✅   |
+| Fedora       | ✅      | ✅  | ✅   | ✅   | ✅   |
+| Gentoo Linux | ✅      | ✅  | ✅   | ✅   | ✅   |
+| macOS        | ✅      | ✅  | ✅   | ✅   | ✅   |
+| BSD          | ✅      | ✅  | ✅   | ✅   | ⚠️   |
 
-# Usage :
+---
+
+## Usage
 
 You can access all system information through static methods of the `Specs` class:
 
@@ -59,6 +74,7 @@ You can access all system information through static methods of the `Specs` clas
 
 Each method returns a value you can print, store, or use in your application.
 
+---
 # dependency :
 
 ## libjpeg turbo 8 :
