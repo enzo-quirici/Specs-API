@@ -126,7 +126,7 @@ If glxinfo returns OpenGL version information, the installation was successful.
 
 MIT License
 
-Copyright (c) 2025 [Enzo Quirici]
+Copyright (c) 2025 Enzo Quirici
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
